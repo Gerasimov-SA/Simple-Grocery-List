@@ -1,4 +1,4 @@
-package com.example.notes
+package com.example.simplegrocerylist
 
 import android.graphics.Paint
 import android.view.LayoutInflater
@@ -6,8 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.simplegrocerylist.Item
-import com.example.simplegrocerylist.R
+
 
 
 class ItemAdapter : RecyclerView.Adapter<ItemAdapter.ItemViewHolder>() {
@@ -108,7 +107,7 @@ class ItemAdapter : RecyclerView.Adapter<ItemAdapter.ItemViewHolder>() {
         init {
             itemView.setOnClickListener {
                 listener?.let { listener ->
-                    val position: Int = adapterPosition
+                    val position: Int = bindingAdapterPosition
                     if (position in 0..itemCount) {
                         listener.onItemClick(items[position])
                     }

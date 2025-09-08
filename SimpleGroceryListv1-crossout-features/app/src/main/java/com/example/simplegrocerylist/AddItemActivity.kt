@@ -1,24 +1,17 @@
 package com.example.simplegrocerylist
 
 import android.app.Activity
-import android.content.ClipData
 import android.content.Intent
-import android.graphics.Color
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
 import android.widget.Button
-import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import com.example.simplegrocerylist.Item
-import com.example.simplegrocerylist.R
+
 
 
 class AddItemActivity : AppCompatActivity() {
