@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="100dp"
+        android:hint="Название продукта"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleHint"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:text="Введите название продукта"/>
+
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="Сколько?"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amountHint"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:text="Введите кол-во штук, пачек, литров и тд."/>
+
+    <TextView
+        android:id="@+id/edit_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="Отдел магазина:" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_bread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:backgroundTint="#FFC107"
+            android:padding="4dp"
+
+            android:text="Хлебный"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_bakaleya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:backgroundTint="#E4C19B"
+            android:padding="4dp"
+            android:text="Бакалейный"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_milk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:backgroundTint="#ACF2FF"
+            android:padding="4dp"
+            android:text="Молочный"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_meat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:backgroundTint="#FFB6CE"
+            android:padding="4dp"
+            android:text="Мясной"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_kolbasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:backgroundTint="#FF9995"
+            android:padding="4dp"
+            android:text="Колбасный"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_vegetables"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:backgroundTint="#8BC18B"
+            android:padding="4dp"
+            android:text="Овощи-фрукты"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/btn_fish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:backgroundTint="#A1B3FF"
+            android:padding="4dp"
+            android:text="Рыбный"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_sweet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:backgroundTint="#A6FF4181"
+            android:padding="4dp"
+            android:text="Кондитерский"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_drinks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:backgroundTint="#E6A1FF"
+            android:padding="4dp"
+            android:text="Напитки"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

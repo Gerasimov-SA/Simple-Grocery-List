@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Simple Grocery List</string>
+    <string name="save_item">Save item</string>
+</resources>

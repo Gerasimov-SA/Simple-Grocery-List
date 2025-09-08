@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="hleb">#FFC107</color>
+    <color name="bakaleya">#E4C19B</color>
+    <color name="milk">#ACF2FF</color>
+    <color name="meat">#FFB6CE</color>
+    <color name="kolbasa">#FF9995</color>
+    <color name="vegetables">#8BC18B</color>
+    <color name="fish">#A1B3FF</color>
+    <color name="sweets">#A6FF4181</color>
+    <color name="drinks">#E6A1FF</color>
+
+</resources>
