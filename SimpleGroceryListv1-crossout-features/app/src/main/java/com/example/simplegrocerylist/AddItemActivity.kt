@@ -51,11 +51,11 @@ class AddItemActivity : AppCompatActivity() {
         titleEditText = findViewById(R.id.titleEditText)
         amountEditText = findViewById(R.id.amountEditText)
 
-//        titleHint = findViewById(R.id.titleHint)
-//        amountHint = findViewById(R.id.amountHint)
-//        //Textwatchers
-//        amountEditText.addTextChangedListener(MyTextWatcher(amountHint))
-//        titleEditText.addTextChangedListener(MyTextWatcher(titleHint))
+        titleHint = findViewById(R.id.titleHint)
+        amountHint = findViewById(R.id.amountHint)
+        //Textwatchers
+        amountEditText.addTextChangedListener(MyTextWatcher(amountHint))
+        titleEditText.addTextChangedListener(MyTextWatcher(titleHint))
 
 
 
